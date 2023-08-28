@@ -21,7 +21,6 @@ h1 {
 	padding-top: 85px;
 	padding-bottom: 50px;
 	min-height: 180px;
-	overflow-x: hidden;
 }
 
 header {
@@ -222,6 +221,9 @@ header .nav-inner .contact-btn:hover {
 }
 
 @media (max-width: 767px) {
+	#root {
+		overflow-x: hidden;
+	}
 	.App form {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto;
