@@ -25,11 +25,10 @@ jobs:
       - name: Build
         run: |
           yarn install
-          yarn build
+          yarn run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: dist # The folder the action should deploy.
-# build file for github page with yarn and Vite
