@@ -30,6 +30,10 @@ export default function App() {
 						<div className="sticky">
 							<img src="src/assets/start-journey.svg" alt="Registration" />
 							<h1>Your Journey Starts Here</h1>
+							<p style={{ textAlign: "center" }}>
+								&copy; {new Date().getFullYear()} Mehedi Hasan - All rights
+								reserved!
+							</p>
 						</div>
 					</div>
 				</div>

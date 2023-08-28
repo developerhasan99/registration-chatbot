@@ -1,18 +1,19 @@
 import React from "react";
 
-function HeaderContents() {
+export default function HeaderContents() {
 	return (
 		<div className="container">
 			<div className="nav-inner">
-				<a href="https://mybizvi.com/" className="logo-wrapper">
-					Chatbot
+				<a href="#" className="logo-wrapper">
+					Registration
 				</a>
-				<a href="https://mybizvi.com/contact-us/" className="contact-btn">
-					Contact Us
+				<a
+					href="https://www.upwork.com/freelancers/~01e0d306e3c729d12e"
+					className="contact-btn"
+				>
+					Hire Me!
 				</a>
 			</div>
 		</div>
 	);
 }
-
-export default React.memo(HeaderContents);
