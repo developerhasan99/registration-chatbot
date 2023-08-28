@@ -21,6 +21,7 @@ h1 {
 	padding-top: 85px;
 	padding-bottom: 50px;
 	min-height: 180px;
+	overflow-x: hidden;
 }
 
 header {
@@ -33,11 +34,11 @@ header {
 }
 
 header .progress {
-	background-color: #fdc500;
+	background-color: #03f092;
 }
 
 header .progress .bar {
-	background-color: #00296b;
+	background-color: #000000;
 	height: 5px;
 	transition: width 0.3s ease-in-out;
 }
@@ -59,7 +60,7 @@ header .nav-inner .logo-wrapper {
 
 header .nav-inner .contact-btn {
 	height: 45px;
-	background-color: #fdc500;
+	background-color: #03f092;
 	border-radius: 10px;
 	padding: 0 20px;
 	line-height: 45px;
@@ -70,7 +71,7 @@ header .nav-inner .contact-btn {
 
 header .nav-inner .contact-btn:hover {
 	color: #fff;
-	background-color: #00296b;
+	background-color: #000000;
 }
 
 .container {
@@ -124,7 +125,7 @@ header .nav-inner .contact-btn:hover {
 }
 
 .App .message-wrapper .user-message .user {
-	background-color: #00296b;
+	background-color: #000000;
 	color: #fff;
 	box-shadow: none;
 }
@@ -182,7 +183,7 @@ header .nav-inner .contact-btn:hover {
 	border: 0;
 	border-radius: 10px;
 	box-shadow: 6px 6px 0 0 #000;
-	background-color: #fdc500;
+	background-color: #03f092;
 	transition: 0.3s;
 }
 
